@@ -402,6 +402,7 @@ name = "rust-sandbox"
 version = "0.1.0"
 dependencies = [
  "image",
+ "lazy_static",
  "num",
  "rayon 0.4.3",
 ]
