@@ -76,6 +76,7 @@ fn main() {
     {
         // 列挙型を用いたリッチなデータ構造
 
+        #[derive(Clone, PartialEq, Debug)]
         enum Json {
             Null,
             Boolean(bool),
