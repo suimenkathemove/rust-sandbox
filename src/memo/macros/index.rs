@@ -49,4 +49,29 @@ fn main() {
 
     let v3 = my_vec![0, 1,];
     assert_eq!(v3, vec![0, 1,]);
+
+    {
+        // デバッグ
+
+        {
+            // cargo build --verboseを使うと、Cargoがrustcを起動する際のオプションが出力される
+            // そのオプションに-Z unstable-options --pretty expandedを追加して実行すると、展開されたコードが端末に表示される
+        }
+
+        {
+            // log_syntax!
+
+            // コンパイル時に引数を端末に表示する
+
+            // #![feature(log_syntax)]を付ける必要がある
+        }
+
+        {
+            // trace_macros!(true)
+
+            // 全てのマクロ呼び出しを端末に表示する
+
+            // #![feature(trace_macros)]
+        }
+    }
 }
