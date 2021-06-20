@@ -74,4 +74,16 @@ fn main() {
             // #![feature(trace_macros)]
         }
     }
+
+    {
+        // 手続きマクロ
+    }
+
+    {
+        // ビルドスクリプト
+
+        // コードを生成する別の方法
+
+        // https://doc.rust-lang.org/cargo/reference/build-scripts.html
+    }
 }
